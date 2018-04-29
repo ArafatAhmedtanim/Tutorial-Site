@@ -1,0 +1,13 @@
+<pre><h3>Comparison Operator:</h3><hr>
+		Equal: 		==
+		Not Equal:	!=
+		Greater Than:	> 
+		Less Than:	<
+	
+<h3>If else Condition:</h3><hr>
+		condition = True			#'conditon' is a boolean  variable
+		
+		if (condition == False):
+			print("False")
+		else:
+			print("True")	#True</pre>

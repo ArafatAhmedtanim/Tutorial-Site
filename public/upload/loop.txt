@@ -1,0 +1,18 @@
+<pre>
+<h3>Iterate over a list:</h3><hr>
+		simple_list=[0, 1, 2]
+		for each in simple_list:
+			print(each)
+	
+<h3>Iterate over list of list:</h3><hr>
+			students=[
+					["abul", 1],
+					["makbul", 2],
+					["jabbar", 3],
+					["kuddush", 4],
+				 ]
+		
+		for rows in students:
+			print ("Name: ",rows[0])
+			print ("Roll: ",rows[1])
+</pre>		

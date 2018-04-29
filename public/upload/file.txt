@@ -1,0 +1,35 @@
+<pre><h3>File Read:</h3><hr>
+	Open:  f=open("file.txt", 'r')
+	Read:  data=f.read()					#data is a string type variable
+	Split: split_data=data.split("\n")
+	
+<h3>File Handle:</h3><hr>
+	#health_con.csv
+	#Name,	  Age, Weight
+	#Abul,	  40,  55
+	#Makbul,  45,  65
+	#Jabbar,  41,  50
+	#Kuddush, 71,  51
+	#Rahim,	  38,  79
+		
+	f = open('health_con.csv', 'r')				#open 'health_con.csv' file
+	data = f.read()						#read 'health_con.csv' file 
+								#and store values in data as a string
+	rows = data.split('\n')					#rows is a list. when a new line occur in data, 
+								#it will split and new splitting string part will store in rows.
+	
+	names = []						#a new list declared 
+	ages = []						#a new list declared
+	weight =[]						#a new list declared
+	
+	for row in rows:
+		values = row.split(',')				#splitting again according to ',''s position
+		header_names.append(values[0])
+		header_ages.append(values[1])
+		header_weight.append(values[2])
+		
+	names = header_names[1: len(header_names)-1] 		#remove header
+	ages = header_ages[1: len(header_ages)-1]		#remove header
+	weight = header_weight[1: len(header_weight)-1]		#remove header</pre>
+	
+		
